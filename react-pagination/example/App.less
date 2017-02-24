@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 87.5%/1.5em 'Lato', sans-serif;
+}
+
+.app {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0 20px;
+
+    .input {
+        margin-bottom: 20px;
+    }
+
+    input {
+        padding: 7px 8px;
+        font-size: 14px;
+        width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .label{
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75%;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+    }
+    .label.add, .label.audit {
+        background-color: #73a839;
+    }
+}
